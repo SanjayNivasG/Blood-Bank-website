@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head><title>DONOR REGISTERATION FORM</title>
+    <style>
+    body{
+        background-color: red;
+        padding:5px;
+        text-align: center;
+    }
+    .form1{ 
+            background-color: white; 
+            position: relative;
+            top:140px; 
+            left:550px;
+            width:400px;
+            border-radius: 20px;  
+            padding:40px;
+         }
+         button{
+            background-color: green;
+            font-weight:bold;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 4px;
+         }
+         #add{
+            height: 40px;
+         }
+    </style>
+</head>
+<body>
+    <div class="form1">
+     <h1>DONOR FORM</h1>
+    <label for="name">NAME:</label>
+    <input type="text" id="name" required><br><br>
+    <label for="">DATE OF BIRTH:</label>
+    <input type="date" id="dob" required> <br><br>  
+    <label for="gender">GENDER:</label>
+    <input type="radio" value="MALE" name="gender">MALE
+    <input type="radio" value="FEMALE" name="gender">FEMALE<br><br>
+    <label for="blood">BLOOD GROUP:</label>
+    <select required>
+        <option value="A+ve">A+ve</option>
+        <option value="A-ve">A-ve</option>
+        <option value="B+ve">B+ve</option>
+        <option value="B-ve">B-ve</option>
+        <option value="O+ve">O+ve</option>
+        <option value="O-ve">O-ve</option>
+        <option value="AB+ve">AB+ve</option>
+        <option value="AB-ve">AB-ve</option>
+    </select><br><br>
+    <label for="phno">PHONE NO:</label>
+    <input type="number" id="phno" required><br><br> 
+    <label for="email">EMAIL ID:</label>
+    <input type="email" id="mail" required><br><br>
+    <label for="add">ADDRESS:</label>
+    <input type="textarea" id="add" required><br><br>
+    <button>Submit</button>
+ </div>
+
+</body>
+</html>
